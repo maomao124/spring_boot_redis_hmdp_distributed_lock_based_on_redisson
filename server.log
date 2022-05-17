@@ -1,0 +1,6 @@
+2022-05-17 20:39:31.355 DEBUG 8952 --- [http-nio-8081-exec-1] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:31.363 DEBUG 8952 --- [http-nio-8081-exec-1] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:31.364 DEBUG 8952 --- [http-nio-8081-exec-1] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:31.365 DEBUG 8952 --- [http-nio-8081-exec-1] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:42:57.726  INFO 8952 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-17 20:42:57.729  INFO 8952 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

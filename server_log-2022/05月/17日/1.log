@@ -1,0 +1,107 @@
+2022-05-17 13:45:55.470  INFO 13072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-17 13:45:55.933  INFO 13072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-17 13:45:55.939  INFO 13072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 13:45:55.940  INFO 13072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 13:45:56.014  INFO 13072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 13:45:56.015  INFO 13072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2022-05-17 13:45:56.242  INFO 13072 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-17 13:45:56.490  INFO 13072 --- [redisson-netty-2-13] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-17 13:45:56.500  INFO 13072 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-17 13:45:56.626  INFO 13072 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-17 13:45:56.719  INFO 13072 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-17 13:45:57.720  INFO 13072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-17 13:45:57.724  INFO 13072 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-17 13:45:57.770  INFO 13072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-17 13:45:57.786  INFO 13072 --- [restartedMain] istributedLockBasedOnRedissonApplication : Started SpringBootRedisHmdpDistributedLockBasedOnRedissonApplication in 3.387 seconds (JVM running for 3.946)
+2022-05-17 13:45:58.137  INFO 13072 --- [RMI TCP Connection(1)-172.28.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 13:45:58.138  INFO 13072 --- [RMI TCP Connection(1)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 13:45:58.139  INFO 13072 --- [RMI TCP Connection(1)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 13:47:15.234  INFO 13072 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-17 13:47:15.237  INFO 13072 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-17 20:38:16.557  INFO 8952 --- [restartedMain] istributedLockBasedOnRedissonApplication : Starting SpringBootRedisHmdpDistributedLockBasedOnRedissonApplication using Java 16.0.2 on mao with PID 8952 (H:\程序\大三下期\spring_boot_redis_hmdp基于redisson实现分布式锁\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp基于redisson实现分布式锁)
+2022-05-17 20:38:16.558 DEBUG 8952 --- [restartedMain] istributedLockBasedOnRedissonApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-17 20:38:16.558  INFO 8952 --- [restartedMain] istributedLockBasedOnRedissonApplication : The following 1 profile is active: "dev"
+2022-05-17 20:38:16.598  INFO 8952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-17 20:38:16.599  INFO 8952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-17 20:38:17.435  INFO 8952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-17 20:38:17.437  INFO 8952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-17 20:38:17.464  INFO 8952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-05-17 20:38:17.989  INFO 8952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-17 20:38:17.998  INFO 8952 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-17 20:38:17.998  INFO 8952 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-17 20:38:18.068  INFO 8952 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-17 20:38:18.068  INFO 8952 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1469 ms
+2022-05-17 20:38:18.316  INFO 8952 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-17 20:38:18.586  INFO 8952 --- [redisson-netty-2-13] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-17 20:38:18.595  INFO 8952 --- [redisson-netty-2-18] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-17 20:38:18.737  INFO 8952 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-17 20:38:18.845  INFO 8952 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-17 20:38:19.911  INFO 8952 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-17 20:38:19.915  INFO 8952 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-17 20:38:19.963  INFO 8952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-17 20:38:19.978  INFO 8952 --- [restartedMain] istributedLockBasedOnRedissonApplication : Started SpringBootRedisHmdpDistributedLockBasedOnRedissonApplication in 3.978 seconds (JVM running for 4.879)
+2022-05-17 20:38:20.415  INFO 8952 --- [RMI TCP Connection(2)-172.28.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 20:38:20.415  INFO 8952 --- [RMI TCP Connection(2)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 20:38:20.417  INFO 8952 --- [RMI TCP Connection(2)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 20:39:15.624 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:15.642 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:15.660 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:15.724 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:15.725 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:15.727 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:15.731 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.mapper.SeckillVoucherMapper.update   : ==>  Preparing: UPDATE tb_seckill_voucher SET stock = stock - 1 WHERE (voucher_id = ? AND stock > ?)
+2022-05-17 20:39:15.732 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.mapper.SeckillVoucherMapper.update   : ==> Parameters: 2(Long), 0(Integer)
+2022-05-17 20:39:15.737 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.mapper.SeckillVoucherMapper.update   : <==    Updates: 1
+2022-05-17 20:39:15.819 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.mapper.VoucherOrderMapper.insert     : ==>  Preparing: INSERT INTO tb_voucher_order ( id, user_id, voucher_id ) VALUES ( ?, ?, ? )
+2022-05-17 20:39:15.820 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.mapper.VoucherOrderMapper.insert     : ==> Parameters: 50786936008212482(Long), 5(Long), 2(Long)
+2022-05-17 20:39:15.823 DEBUG 8952 --- [http-nio-8081-exec-2] m.s.mapper.VoucherOrderMapper.insert     : <==    Updates: 1
+2022-05-17 20:39:17.512 DEBUG 8952 --- [http-nio-8081-exec-3] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:17.513 DEBUG 8952 --- [http-nio-8081-exec-3] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:17.517 DEBUG 8952 --- [http-nio-8081-exec-3] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:17.521 DEBUG 8952 --- [http-nio-8081-exec-3] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:17.521 DEBUG 8952 --- [http-nio-8081-exec-3] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:17.523 DEBUG 8952 --- [http-nio-8081-exec-3] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:18.745 DEBUG 8952 --- [http-nio-8081-exec-5] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:18.746 DEBUG 8952 --- [http-nio-8081-exec-5] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:18.747 DEBUG 8952 --- [http-nio-8081-exec-5] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:18.750 DEBUG 8952 --- [http-nio-8081-exec-5] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:18.751 DEBUG 8952 --- [http-nio-8081-exec-5] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:18.751 DEBUG 8952 --- [http-nio-8081-exec-5] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:28.909 DEBUG 8952 --- [http-nio-8081-exec-4] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:28.909 DEBUG 8952 --- [http-nio-8081-exec-4] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:28.911 DEBUG 8952 --- [http-nio-8081-exec-4] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:28.914 DEBUG 8952 --- [http-nio-8081-exec-4] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:28.915 DEBUG 8952 --- [http-nio-8081-exec-4] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:28.917 DEBUG 8952 --- [http-nio-8081-exec-4] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:29.342 DEBUG 8952 --- [http-nio-8081-exec-6] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:29.342 DEBUG 8952 --- [http-nio-8081-exec-6] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:29.343 DEBUG 8952 --- [http-nio-8081-exec-6] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:29.345 DEBUG 8952 --- [http-nio-8081-exec-6] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:29.346 DEBUG 8952 --- [http-nio-8081-exec-6] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:29.346 DEBUG 8952 --- [http-nio-8081-exec-6] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:29.840 DEBUG 8952 --- [http-nio-8081-exec-7] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:29.841 DEBUG 8952 --- [http-nio-8081-exec-7] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:29.844 DEBUG 8952 --- [http-nio-8081-exec-7] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:29.849 DEBUG 8952 --- [http-nio-8081-exec-7] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:29.850 DEBUG 8952 --- [http-nio-8081-exec-7] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:29.852 DEBUG 8952 --- [http-nio-8081-exec-7] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:30.225 DEBUG 8952 --- [http-nio-8081-exec-8] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:30.226 DEBUG 8952 --- [http-nio-8081-exec-8] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:30.228 DEBUG 8952 --- [http-nio-8081-exec-8] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:30.234 DEBUG 8952 --- [http-nio-8081-exec-8] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:30.236 DEBUG 8952 --- [http-nio-8081-exec-8] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:30.238 DEBUG 8952 --- [http-nio-8081-exec-8] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:30.571 DEBUG 8952 --- [http-nio-8081-exec-9] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:30.572 DEBUG 8952 --- [http-nio-8081-exec-9] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:30.573 DEBUG 8952 --- [http-nio-8081-exec-9] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:30.576 DEBUG 8952 --- [http-nio-8081-exec-9] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:30.576 DEBUG 8952 --- [http-nio-8081-exec-9] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:30.577 DEBUG 8952 --- [http-nio-8081-exec-9] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:30.975 DEBUG 8952 --- [http-nio-8081-exec-10] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:30.975 DEBUG 8952 --- [http-nio-8081-exec-10] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
+2022-05-17 20:39:30.978 DEBUG 8952 --- [http-nio-8081-exec-10] m.s.m.SeckillVoucherMapper.selectById    : <==      Total: 1
+2022-05-17 20:39:30.983 DEBUG 8952 --- [http-nio-8081-exec-10] m.s.m.VoucherOrderMapper.selectCount     : ==>  Preparing: SELECT COUNT( * ) FROM tb_voucher_order WHERE (user_id = ? AND voucher_id = ?)
+2022-05-17 20:39:30.983 DEBUG 8952 --- [http-nio-8081-exec-10] m.s.m.VoucherOrderMapper.selectCount     : ==> Parameters: 5(Long), 2(Long)
+2022-05-17 20:39:30.985 DEBUG 8952 --- [http-nio-8081-exec-10] m.s.m.VoucherOrderMapper.selectCount     : <==      Total: 1
+2022-05-17 20:39:31.351 DEBUG 8952 --- [http-nio-8081-exec-1] m.s.m.SeckillVoucherMapper.selectById    : ==>  Preparing: SELECT voucher_id,stock,create_time,begin_time,end_time,update_time FROM tb_seckill_voucher WHERE voucher_id=?
+2022-05-17 20:39:31.352 DEBUG 8952 --- [http-nio-8081-exec-1] m.s.m.SeckillVoucherMapper.selectById    : ==> Parameters: 2(Long)
